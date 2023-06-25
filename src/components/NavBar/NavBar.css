@@ -1,0 +1,44 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: none;
+  padding: 1%;
+  z-index: 100;
+}
+
+.scroll-background {
+  background-color: #111;
+}
+
+.logo {
+  position: fixed;
+  left: 20px;
+  width: 80px;
+}
+
+.navCons {
+  display: flex;
+  margin-left: 15%;
+  color: #fff;
+}
+
+.navCons p {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navCons p {
+    display: none;
+  }
+}
+
+.avatar {
+  position: fixed;
+  right: 20px;
+  width: 30px;
+  top: 10px;
+  cursor: pointer;
+}
