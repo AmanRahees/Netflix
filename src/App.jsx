@@ -10,7 +10,7 @@ import {
   horror,
   romance,
   documentaries,
-} from "./constants/urls.js";
+} from "./constants/urls";
 
 function App() {
   return (
@@ -24,6 +24,9 @@ function App() {
       <Posters url={horror} title="Horror" isSmall />
       <Posters url={romance} title="Romance" isSmall />
       <Posters url={documentaries} title="Documentaries" isSmall />
+      <footer>
+        <p>Created by Aman Rahees</p>
+      </footer>
     </div>
   );
 }

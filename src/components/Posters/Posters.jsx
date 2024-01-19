@@ -11,7 +11,7 @@ function Posters(props) {
     instance.get(props.url).then((response) => {
       setMovie(response.data.results);
     });
-  }, []);
+  }, [props.url]);
 
   const opts = {
     height: "390",
